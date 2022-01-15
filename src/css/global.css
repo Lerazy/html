@@ -1,0 +1,17 @@
+body, html {
+  background-color: #ced4da;
+  color: #0f0e0e;
+  padding: .1rem;
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
