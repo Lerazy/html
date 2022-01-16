@@ -1,0 +1,13 @@
+.main .main-pic .main-pic-article h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 1rem;
+}
+
+.main .main-pic .main-pic-article p {
+  margin: auto auto;
+  width: 95%;
+  text-align: justify;
+  border-top: grey solid .04rem;
+  padding-top: 1rem;
+}

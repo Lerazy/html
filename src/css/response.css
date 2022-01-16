@@ -1,1 +1,7 @@
-/* No CSS */
+#nav-menu-for-block {
+  display: block;
+}
+
+#nav-menu-for-none {
+  display: none;
+}
