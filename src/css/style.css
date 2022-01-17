@@ -1,4 +1,6 @@
 body, html {
+  margin: auto auto;
+  max-width: 1440px;
   background-color: #000000;
   color: white;
   padding: .1rem;
