@@ -12,27 +12,13 @@
 
 // }(document, window));
 
-function toggleNavMenu(maxWidth){
-    let forDeskTop = document.getElementsByClassName('nav-menu')[0];
-    let forMobile = document.getElementsByClassName('nav-menu-for-mobile')[0];
-    
-    let resize = () => {
-        let clientWidth = document.documentElement.clientWidth;
-        if(clientWidth < maxWidth){
-            forMobile.setAttribute('id','nav-menu-for-block');
-            forDeskTop.setAttribute('id','nav-menu-for-none');
-        }else{
-            forMobile.setAttribute('id','nav-menu-for-none')
-            forDeskTop.setAttribute('id','nav-menu-for-block');
-        }
-    }
-    let event = "onorientationchange" in window ? "orientationchange":"resize";
-    document.addEventListener('DOMContentLoaded',function(){
-        resize();
-    },false);
-    
-    window.addEventListener(event,function(){
-        resize();
-    },false);
+
+function onclick(){
+    let input = document.getElementsByTagName('input')[0];
+    input.addEventListener('click',function(){
+        input.value = " ";
+    });    
+
 }
-toggleNavMenu(600);
+
+onclick();

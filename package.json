@@ -3,5 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "lerazy <yangleidehaoshi@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4"
+  },
+  "repository": "https://github.com/Lerazy/WTHell.git"
 }
