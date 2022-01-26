@@ -1,0 +1,35 @@
+.footer {
+  margin: auto auto;
+  padding-top: 10%;
+  border: solid #222121 1px;
+  width: 95%;
+  text-align: center;
+}
+
+.footer .footer_social i {
+  font-size: 5rem;
+  margin: 3rem;
+}
+
+.footer .footer_social i:hover {
+  color: white;
+}
+
+.footer .footer_links a {
+  margin: 1rem;
+  display: inline-block;
+  font-size: 1.2rem;
+}
+
+.footer .footer_links a:hover {
+  color: white;
+}
+
+.footer .footer_copyrights {
+  margin: 2rem;
+}
+
+.footer h1 {
+  letter-spacing: .1rem;
+  margin-bottom: 5rem;
+}

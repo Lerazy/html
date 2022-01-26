@@ -6,3 +6,8 @@
   version "5.15.4"
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-5.15.4.tgz#ecda5712b61ac852c760d8b3c79c96adca5554e5"
   integrity sha512-eYm8vijH/hpzr/6/1CJ/V/Eb1xQFW2nnUKArb3z+yUWv7HTwj6M7SP957oMjfZjAHU6qpoNc2wQvIxBLWYa/Jg==
+
+approvejs@^3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/approvejs/-/approvejs-3.1.2.tgz#10f417dfcf6181038db3449fe0d6ce3a8442bd4a"
+  integrity sha1-EPQX389hgQONs0Sf4NbOOoRCvUo=

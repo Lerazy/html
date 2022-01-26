@@ -1,0 +1,44 @@
+.footer{
+    margin: auto auto;
+    padding-top: 10%;
+    border: solid rgb(34, 33, 33) 1px;
+    width: 95%;
+    text-align: center;
+
+    .footer_social{
+        i{
+            font-size: 5rem;
+            margin: 3rem;
+            &:hover{
+                color: white;
+            }
+        }
+    }
+
+    .footer_links{
+        a{
+         margin: 1rem;
+         display: inline-block;
+        font-size: 1.2rem;
+        &:hover{
+            color: white;
+        }
+        }
+
+        @include breakpoint-down(small){
+            a{
+                display: block;
+            }
+        }
+    }
+
+    .footer_copyrights{
+        margin: 2rem;
+    }
+
+    h1{
+        letter-spacing: .1rem;
+        margin-bottom: 5rem;
+    }
+    
+}
